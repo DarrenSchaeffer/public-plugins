@@ -34,15 +34,15 @@ For health, legal, or money decisions, a reading can help you think, and a profe
 
 ## Install
 
-Inkling installs as a plugin in Claude and ChatGPT, from one file: [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip).
+Inkling installs as a plugin in Claude and ChatGPT.
 
 ### Claude (web, desktop, or mobile)
 
 1. Turn on code execution: Settings, then Capabilities.
-2. Download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip).
-3. Customize, then Plugins, then Add, then Upload plugin. Pick the zip.
+2. Customize, then Plugins, then Add, then Add marketplace. Type `DarrenSchaeffer/public-plugins` (this GitHub page, not Anthropic's store).
+3. Install Inkling from the list. When a new version comes out, use Check for updates.
 
-Optional, to get new versions without re-downloading: instead of steps 2 and 3, use Customize, then Plugins, then Add, then Add marketplace, and type `DarrenSchaeffer/public-plugins` (this GitHub page, not Anthropic's store). Then install Inkling, and use Check for updates when a new version comes out.
+Or upload it instead: download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip), then Customize, then Plugins, then Add, then Upload plugin.
 
 ### ChatGPT
 
