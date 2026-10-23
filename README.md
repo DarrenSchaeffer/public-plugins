@@ -15,7 +15,7 @@ You can read exactly what it does: the skill's instructions are in [SKILL.md](pl
 
 ## Install
 
-Download files are on the [Releases page](https://github.com/dasc8079/public-plugins/releases/latest).
+Download files are on the [Releases page](https://github.com/DarrenSchaeffer/public-plugins/releases/latest).
 
 ### Claude (web, desktop, or mobile)
 
@@ -28,7 +28,7 @@ No Plugins option on your plan? Download `inkling-skill.zip` instead, then Custo
 ### Claude Code
 
 ```
-/plugin marketplace add dasc8079/public-plugins
+/plugin marketplace add DarrenSchaeffer/public-plugins
 /plugin install inkling@darrenschaeffer
 ```
 
