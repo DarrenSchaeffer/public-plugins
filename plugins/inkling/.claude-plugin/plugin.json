@@ -1,0 +1,16 @@
+{
+  "name": "inkling",
+  "version": "0.5.1",
+  "description": "Inkling: tarot, Lenormand, and I Ching readings for clarity on your own life, with a real random cast. Ask one question at a time and confirm it with Y; the answer comes first, with the cast below for checking.",
+  "author": {
+    "name": "Darren Schaeffer",
+    "url": "https://substack.com/@darrenschaeffer"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "tarot",
+    "lenormand",
+    "i ching",
+    "divination"
+  ]
+}

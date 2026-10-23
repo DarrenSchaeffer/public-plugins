@@ -1,0 +1,15 @@
+{
+  "name": "darrenschaeffer",
+  "description": "Free AI plugins by Darren Schaeffer.",
+  "owner": {
+    "name": "Darren Schaeffer",
+    "url": "https://substack.com/@darrenschaeffer"
+  },
+  "plugins": [
+    {
+      "name": "inkling",
+      "source": "./plugins/inkling",
+      "description": "Inkling: tarot, Lenormand, and I Ching readings for clarity on your own life, with a real random cast. Ask one question at a time and confirm it with Y; the answer comes first, with the cast below for checking."
+    }
+  ]
+}
