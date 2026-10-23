@@ -1,10 +1,10 @@
 # Inkling
 
-I built a free skill called Inkling, an introduction to AI-based divination built on the tarot, I Ching, or Lenormand systems, so you can try it yourself.
+Inkling is a free plugin, an introduction to AI-based divination built on the tarot, I Ching, or Lenormand systems.
 
 By Darren Schaeffer ([Substack](https://substack.com/@darrenschaeffer), [LinkedIn](https://linkedin.com/in/darrenschaeffer)).
 
-**This is a starter skill:** a single skill can't hold enough instructions to make it fully reliable, and chatbots can still skip steps or get things wrong.
+**This is a starter plugin:** a single plugin can't hold enough instructions to make it fully reliable, and chatbots can still skip steps or get things wrong.
 
 ## How it works
 
