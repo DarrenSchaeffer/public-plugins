@@ -8,9 +8,7 @@ By Darren Schaeffer ([Substack](https://substack.com/@darrenschaeffer), [LinkedI
 
 ## How it works
 
-**To start, name Inkling:** "Use Inkling to give me a reading on [your question]." ChatGPT especially may not pick it up unless you say its name.
-
-1. **Ask one question at a time.** If you're not sure what to ask, use voice input and ramble about your situation. It will pick out the question for you and choose the appropriate system.
+1. **Ask one question at a time, and name Inkling:** "Use Inkling to give me a reading on [your question]." (ChatGPT especially may not pick it up unless you say its name.) If you're not sure what to ask, use voice input and ramble about your situation. It will pick out the question for you and choose the appropriate system.
 2. **Confirm the question.** It turns what you said into a clear question and shows it to you before it casts. Look it over and make sure it's right.
 3. **It casts in code,** so the AI can't skip the shuffle or make up the cards.
 4. **Receive insight.** The answer comes first, with the details below it, so you can check the reading and learn from it.
