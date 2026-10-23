@@ -1,8 +1,10 @@
 # Inkling
 
-A free skill for AI-based divination, built on tarot, the I Ching, and Lenormand, by Darren Schaeffer ([Substack](https://substack.com/@darrenschaeffer), [LinkedIn](https://linkedin.com/in/darrenschaeffer)).
+I built a free skill called Inkling, an introduction to AI-based divination built on the tarot, I Ching, or Lenormand systems, so you can try it yourself.
 
-**This is a starter:** a single skill can't hold enough instructions to make it fully reliable, and chatbots can still skip steps or get things wrong.
+By Darren Schaeffer ([Substack](https://substack.com/@darrenschaeffer), [LinkedIn](https://linkedin.com/in/darrenschaeffer)).
+
+**This is a starter skill:** a single skill can't hold enough instructions to make it fully reliable, and chatbots can still skip steps or get things wrong.
 
 ## How it works
 
