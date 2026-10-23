@@ -33,39 +33,35 @@ For health, legal, or money decisions, a reading can help you think, and a profe
 
 ## Install
 
+Inkling installs as a plugin in Claude and ChatGPT. Both need the plugin file, [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip), unless you use Claude's marketplace option below.
+
 ### Claude (web, desktop, or mobile)
 
 1. Turn on code execution: Settings, then Capabilities.
-2. Customize, then Plugins, then Add, then Add marketplace. Paste `DarrenSchaeffer/public-plugins`.
-3. Install Inkling from the list. To get new versions, use Check for updates, or turn on Sync automatically.
+2. Customize, then Plugins, then Add, then Add marketplace. Paste `DarrenSchaeffer/public-plugins`, then install Inkling. To get new versions, use Check for updates, or turn on Sync automatically.
 
-Can't add a marketplace on your plan? Download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip) and use Add, then Upload plugin instead. No Plugins option at all? Download [inkling-skill.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-skill.zip), then Customize, then Skills, then "+", then Upload a skill.
+Or download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip) and use Customize, then Plugins, then Add, then Upload plugin.
 
 ### ChatGPT
 
-1. Download [inkling-skill.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-skill.zip).
-2. Plugins, then Skills, then Add, then Upload. Pick the zip.
-
-### Gemini
-
-The Gemini app can upload skills (Skills, then Upload), but it can't run the shuffle script, so Inkling can't cast there. Use the paste-in prompt below instead, or a coding assistant.
-
-In ChatGPT, whether the shuffle script runs is still being tested. If Inkling says it can't do a random cast, use the paste-in prompt.
+1. Download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip).
+2. Go to Plugins and upload it as a plugin. Use the plugin zip, not the skill upload: in testing, the plugin worked and the bare skill did not.
+3. Start a new chat and ask for a reading.
 
 ### Coding assistants (Claude Code, Codex, and others)
 
-Ask it: "Install the Inkling skill from https://github.com/DarrenSchaeffer/public-plugins". In Claude Code you can also run:
+Ask it: "Install the Inkling plugin from https://github.com/DarrenSchaeffer/public-plugins". In Claude Code you can also run:
 
 ```
 /plugin marketplace add DarrenSchaeffer/public-plugins
 /plugin install inkling@darrenschaeffer
 ```
 
-### Any other chatbot, including Microsoft Copilot
+### Any other chatbot (Gemini, Microsoft Copilot, and others)
 
-Start a new chat and paste in the prompt from [PROMPT.md](PROMPT.md).
+Start a new chat and paste in the prompt from [PROMPT.md](PROMPT.md). The Gemini app can't run Inkling's shuffle script, so the prompt is the way in there.
 
-All downloads are also on the [Releases page](https://github.com/DarrenSchaeffer/public-plugins/releases/latest).
+All downloads are on the [Releases page](https://github.com/DarrenSchaeffer/public-plugins/releases/latest).
 
 ## License
 
