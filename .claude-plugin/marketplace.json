@@ -9,7 +9,7 @@
     {
       "name": "inkling",
       "source": "./plugins/inkling",
-      "description": "Inkling: tarot, Lenormand, and I Ching readings for clarity on your own life, with a real random cast. Ask one question at a time and confirm it with Y; the answer comes first, with the cast below for checking."
+      "description": "Inkling: divination with tarot, Lenormand, and I Ching readings for clarity on your own life, with a real random cast. Ask for a reading, a card pull, or a hexagram; confirm the question with Y; the answer comes first, with the cast below for checking."
     }
   ]
 }
