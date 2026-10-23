@@ -152,6 +152,17 @@ class Casts(unittest.TestCase):
     def test_cli_rejects_unknown(self):
         self.assertEqual(cast.main(["cast.py", "runes"]), 2)
 
+    def test_offline_and_stateless(self):
+        # README promise: only random and sys; no network, no file reads, nothing saved.
+        import ast
+        tree = ast.parse(SCRIPT.read_text())
+        modules = {a.name for n in ast.walk(tree) if isinstance(n, ast.Import) for a in n.names}
+        modules |= {n.module for n in ast.walk(tree) if isinstance(n, ast.ImportFrom)}
+        self.assertEqual(modules, {"random", "sys"})
+        builtins_called = {n.func.id for n in ast.walk(tree)
+                           if isinstance(n, ast.Call) and isinstance(n.func, ast.Name)}
+        self.assertFalse(builtins_called & {"open", "eval", "exec", "__import__", "compile", "input"})
+
     def test_never_seeded(self):
         self.assertNotIn(".seed(", SCRIPT.read_text())
 

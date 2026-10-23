@@ -6,6 +6,11 @@ By Darren Schaeffer ([Substack](https://substack.com/@darrenschaeffer), [LinkedI
 
 You can read exactly what it does: the skill's instructions are in [SKILL.md](plugins/inkling/skills/inkling/SKILL.md), the shuffle is in [cast.py](plugins/inkling/skills/inkling/scripts/cast.py), and a paste-in version for any chatbot is in [PROMPT.md](PROMPT.md).
 
+## What it does
+
+- The script does one thing: it shuffles the cards or tosses the coins, then prints the result. It uses only Python's built-in `random` and `sys` modules. It makes no network calls, reads no files, and saves nothing. The repo's tests check this.
+- The instructions tell your chatbot not to search the web or make images. Your conversation stays wherever your chatbot normally keeps it; Inkling adds no storage of its own.
+
 ## How to use
 
 - Ask one question at a time. Ramble or use voice input if you like; Inkling works out what's worth asking.
@@ -14,6 +19,8 @@ You can read exactly what it does: the skill's instructions are in [SKILL.md](pl
 - You're still responsible for your choices.
 
 ## Install
+
+Using a coding assistant like Claude Code or Codex? Ask it to install Inkling from this page: https://github.com/DarrenSchaeffer/public-plugins
 
 Download files are on the [Releases page](https://github.com/DarrenSchaeffer/public-plugins/releases/latest).
 
