@@ -33,6 +33,8 @@ For health, legal, or money decisions, a reading can help you think, and a profe
 
 ## Install
 
+**To start a reading, name Inkling:** "Use Inkling to give me a reading on [your question]." ChatGPT especially may not pick it up unless you say its name.
+
 Inkling installs as a plugin in Claude and ChatGPT. Both need the plugin file, [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip), unless you use Claude's marketplace option below.
 
 ### Claude (web, desktop, or mobile)
@@ -45,8 +47,9 @@ Or download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugi
 ### ChatGPT
 
 1. Download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip).
-2. Go to Plugins and upload it as a plugin. Use the plugin zip, not the skill upload: in testing, the plugin worked and the bare skill did not.
-3. Start a new chat and ask for a reading.
+2. Plugins, then Add, then Upload a plugin from archive. Pick the zip.
+3. On the next screen, click Install. Uploading alone doesn't turn it on.
+4. Start a new chat.
 
 ### Coding assistants (Claude Code, Codex, and others)
 
@@ -71,6 +74,6 @@ CC BY-NC-SA 4.0: share and adapt it with credit, non-commercially, under the sam
 
 ```
 python3 -m unittest discover tests
-./scripts/build_skill_zip.sh   # builds both zips into dist/
+./scripts/build_plugin_zip.sh   # builds dist/inkling-plugin.zip
 claude plugin validate . --strict
 ```
