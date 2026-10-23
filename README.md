@@ -48,10 +48,9 @@ Can't add a marketplace on your plan? Download [inkling-plugin.zip](https://gith
 
 ### Gemini
 
-1. Download [inkling-skill.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-skill.zip).
-2. Skills, then Upload. Pick the zip.
+The Gemini app can upload skills (Skills, then Upload), but it can't run the shuffle script, so Inkling can't cast there. Use the paste-in prompt below instead, or a coding assistant.
 
-In ChatGPT and Gemini, whether the shuffle script runs is not yet tested. If Inkling says it can't do a random cast, use the paste-in prompt below.
+In ChatGPT, whether the shuffle script runs is still being tested. If Inkling says it can't do a random cast, use the paste-in prompt.
 
 ### Coding assistants (Claude Code, Codex, and others)
 
