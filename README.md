@@ -27,10 +27,10 @@ Download files are on the [Releases page](https://github.com/DarrenSchaeffer/pub
 ### Claude (web, desktop, or mobile)
 
 1. Turn on code execution: Settings, then Capabilities.
-2. Download `inkling-plugin.zip`.
-3. Customize, then Plugins, then Add, then Upload plugin. Pick the zip.
+2. Customize, then Plugins, then Add, then Add marketplace. Paste `DarrenSchaeffer/public-plugins`.
+3. Install Inkling from the list. To get new versions, use Check for updates, or turn on Sync automatically.
 
-No Plugins option on your plan? Download `inkling-skill.zip` instead, then Customize, then Skills, then "+", then Upload a skill.
+Can't add a marketplace on your plan? Download `inkling-plugin.zip` and use Add, then Upload plugin instead. No Plugins option at all? Download `inkling-skill.zip`, then Customize, then Skills, then "+", then Upload a skill.
 
 ### Claude Code
 
