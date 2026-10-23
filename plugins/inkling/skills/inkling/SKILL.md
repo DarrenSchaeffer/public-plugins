@@ -1,6 +1,6 @@
 ---
 name: inkling
-description: Inkling. Tarot, Lenormand, and I Ching readings with a real random cast from a bundled script. Use when someone asks for a tarot, Lenormand, or I Ching reading, asks the cards or the I Ching a question about their life, wants a divination or a draw, or asks a follow-up question after a reading. To use: ask one question at a time (rambling or voice input is fine), confirm the refined question with Y, and read the answer first, with the cast below.
+description: Inkling is a divination skill. Tarot, Lenormand, and I Ching readings with a real random cast from a bundled script. Use when someone asks for a tarot, Lenormand, or I Ching reading, asks the cards or the I Ching a question about their life, wants a divination or a draw, or asks a follow-up question after a reading. To use: ask one question at a time (rambling or voice input is fine), confirm the refined question with Y, and read the answer first, with the cast below.
 license: CC BY-NC-SA 4.0
 ---
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Inkling"
+  short_description: "Tarot, Lenormand, and I Ching readings with a real cast"
+  default_prompt: "Use $inkling to do a reading on a question about my life."
