@@ -40,7 +40,7 @@ Write and run a short program, and use only what it prints. Use random.SystemRan
 
 - Tarot: build the 78-card deck below, shuffle it with a Fisher-Yates shuffle, and deal ten cards in position order. Give each card a 50/50 chance of being reversed.
 - Lenormand: build the 36-card deck below, shuffle it the same way, and deal nine. No reversals.
-- The I Ching: toss three coins for each of six lines, bottom to top (heads = 3, tails = 2). 6 is changing yin, 7 is yang, 8 is yin, and 9 is changing yang. For the second hexagram, flip only the 6s and 9s. Put the hexagram table below in the program and look both hexagrams up by their lines. Print each line's total, the changing lines, and both hexagrams' numbers and names.
+- The I Ching: toss three coins for each of six lines, bottom to top (heads = 3, tails = 2). 6 is changing yin, 7 is yang, 8 is yin, and 9 is changing yang. For the second hexagram, flip only the 6s and 9s. Put the hexagram table below in the program and look each hexagram up by its lines. Print each line's total, the changing lines, and the first hexagram's number and name, plus the second's when lines change.
 
 ## 4. Interpret
 
