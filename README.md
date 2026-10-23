@@ -2,7 +2,7 @@
 
 Clarity on your own life, through divination. Inkling reads tarot (Celtic Cross), Lenormand (3x3 grid), and the I Ching (one hexagram) inside your AI chatbot. The cards and coins come from a small script that ships with the skill, so every cast is random and checkable.
 
-By Darren Schaeffer ([Substack](https://substack.com/@darrenschaeffer), [LinkedIn](https://linkedin.com/in/darrenschaeffer), X [@dasc8079](https://x.com/dasc8079)). Free for personal use under CC BY-NC-SA 4.0.
+By Darren Schaeffer ([Substack](https://substack.com/@darrenschaeffer), [LinkedIn](https://linkedin.com/in/darrenschaeffer)). Free for personal use under CC BY-NC-SA 4.0.
 
 You can read exactly what it does: the skill's instructions are in [SKILL.md](plugins/inkling/skills/inkling/SKILL.md), the shuffle is in [cast.py](plugins/inkling/skills/inkling/scripts/cast.py), and a paste-in version for any chatbot is in [PROMPT.md](PROMPT.md).
 
