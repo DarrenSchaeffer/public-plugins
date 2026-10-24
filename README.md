@@ -1,6 +1,6 @@
 # Inkling
 
-Inkling is a free plugin, an introduction to AI-based divination built on the tarot, I Ching, or Lenormand systems.
+Inkling is a free plugin that lets you try AI divination using tarot, Lenormand, or the I Ching.
 
 By Darren Schaeffer ([Substack](https://substack.com/@darrenschaeffer), [LinkedIn](https://linkedin.com/in/darrenschaeffer)).
 
