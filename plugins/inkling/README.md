@@ -39,17 +39,17 @@ Inkling installs as a plugin in Claude and ChatGPT.
 ### Claude (web, desktop, or mobile)
 
 1. Turn on code execution: Settings, then Capabilities.
-2. Go to Customize, then Plugins, then Add, then Add marketplace. Type `DarrenSchaeffer/public-plugins` (this GitHub page, not Anthropic's store).
+2. Go to Customize, then Plugins, then Add, then Add marketplace. Type `DarrenSchaeffer/wisdom-tools` (this GitHub page, not Anthropic's store).
 3. Install Inkling from the list. When a new version comes out, use Check for updates.
 
 Or upload it instead:
 
-1. Download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip).
+1. Download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/wisdom-tools/releases/latest/download/inkling-plugin.zip).
 2. Go to Customize, then Plugins, then Add, then Upload plugin. Pick the zip.
 
 ### ChatGPT
 
-1. Download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip).
+1. Download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/wisdom-tools/releases/latest/download/inkling-plugin.zip).
 2. Go to Plugins, then Add, then Upload a plugin from archive. Pick the zip.
 3. On the next screen, click Install. Uploading alone doesn't turn it on.
 4. Start a new chat.
@@ -59,13 +59,13 @@ Or upload it instead:
 Paste this in:
 
 ```
-Install the Inkling plugin from https://github.com/DarrenSchaeffer/public-plugins
+Install the Inkling plugin from https://github.com/DarrenSchaeffer/wisdom-tools
 ```
 
 In Claude Code you can also run:
 
 ```
-/plugin marketplace add DarrenSchaeffer/public-plugins
+/plugin marketplace add DarrenSchaeffer/wisdom-tools
 /plugin install inkling@darrenschaeffer
 ```
 
@@ -73,7 +73,7 @@ In Claude Code you can also run:
 
 Start a new chat and paste in [the prompt](PROMPT.md).
 
-All downloads are on the [Releases page](https://github.com/DarrenSchaeffer/public-plugins/releases/latest).
+All downloads are on the [Releases page](https://github.com/DarrenSchaeffer/wisdom-tools/releases/latest).
 
 ## Example prompts
 
@@ -83,7 +83,7 @@ All downloads are on the [Releases page](https://github.com/DarrenSchaeffer/publ
 
 ## Support
 
-Questions and feedback: [Substack](https://substack.com/@darrenschaeffer) or [GitHub issues](https://github.com/DarrenSchaeffer/public-plugins/issues).
+Questions and feedback: [Substack](https://substack.com/@darrenschaeffer) or [GitHub issues](https://github.com/DarrenSchaeffer/wisdom-tools/issues).
 
 ## License
 

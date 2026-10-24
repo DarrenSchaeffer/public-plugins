@@ -1,4 +1,4 @@
-# Public plugins
+# Wisdom Tools
 
 Public tools by Darren Schaeffer to help you live your most authentic life.
 
@@ -14,7 +14,7 @@ Each tool has its own page with install steps and instructions.
 
 ## Get every tool in Claude
 
-Turn on code execution (Settings, then Capabilities). Then go to Customize, then Plugins, then Add, then Add marketplace, and type `DarrenSchaeffer/public-plugins`. Every tool here shows up in the list, and new ones appear as they're added.
+Turn on code execution (Settings, then Capabilities). Then go to Customize, then Plugins, then Add, then Add marketplace, and type `DarrenSchaeffer/wisdom-tools`. Every tool here shows up in the list, and new ones appear as they're added.
 
 ## License
 
