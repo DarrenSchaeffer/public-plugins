@@ -2,7 +2,7 @@
 
 For any chatbot that can run code (ChatGPT, Gemini, Microsoft Copilot, Claude, and others). Start a new chat, paste everything in the box below, then ask your question. Unlike the Inkling skill, this version asks the chatbot to write its own shuffle code, so check the Details at the bottom of each reading to see that it really ran.
 
-Version 21, 2026-10-23.
+Version 24, 2026-10-24 (matches the essay's prompt draft).
 
 ```
 Inkling, a divination prompt by Darren Schaeffer (substack.com/@darrenschaeffer, linkedin.com/in/darrenschaeffer). Free for personal use. Adapt and share it with credit, non-commercially, under the same terms (CC BY-NC-SA 4.0). For commercial use, contact me. If you improve it, I'd love to see it.
