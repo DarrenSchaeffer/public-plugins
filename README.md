@@ -11,7 +11,7 @@ By Darren Schaeffer ([Substack](https://substack.com/@darrenschaeffer), [LinkedI
 1. **Start with "Use Inkling":** "Use Inkling to give me a reading on [your question]."
 2. **Ask one question at a time.** If you're not sure what to ask, use voice input and ramble about your situation. It will pick out the question for you and choose the appropriate system.
 3. **Confirm the question.** It turns what you said into a clear question and shows it to you before it casts. Look it over and make sure it's right.
-4. **It casts in code,** so the AI can't skip the shuffle or make up the cards.
+4. **It shuffles in code,** so the AI can't skip the shuffle or make up the cards.
 5. **Receive insight.** The answer comes first, with the details below it, so you can check the reading and learn from it.
 
 A reading can show you the shape of what's happening, but the choice is yours, and so is walking the path.
@@ -39,21 +39,30 @@ Inkling installs as a plugin in Claude and ChatGPT.
 ### Claude (web, desktop, or mobile)
 
 1. Turn on code execution: Settings, then Capabilities.
-2. Customize, then Plugins, then Add, then Add marketplace. Type `DarrenSchaeffer/public-plugins` (this GitHub page, not Anthropic's store).
+2. Go to Customize, then Plugins, then Add, then Add marketplace. Type `DarrenSchaeffer/public-plugins` (this GitHub page, not Anthropic's store).
 3. Install Inkling from the list. When a new version comes out, use Check for updates.
 
-Or upload it instead: download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip), then Customize, then Plugins, then Add, then Upload plugin.
+Or upload it instead:
+
+1. Download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip).
+2. Go to Customize, then Plugins, then Add, then Upload plugin. Pick the zip.
 
 ### ChatGPT
 
 1. Download [inkling-plugin.zip](https://github.com/DarrenSchaeffer/public-plugins/releases/latest/download/inkling-plugin.zip).
-2. Plugins, then Add, then Upload a plugin from archive. Pick the zip.
+2. Go to Plugins, then Add, then Upload a plugin from archive. Pick the zip.
 3. On the next screen, click Install. Uploading alone doesn't turn it on.
 4. Start a new chat.
 
-### Coding assistants (Claude Code, Codex, and others)
+### Coding assistants (Claude Code, Codex, GitHub Copilot, and others)
 
-Ask it: "Install the Inkling plugin from https://github.com/DarrenSchaeffer/public-plugins". In Claude Code you can also run:
+Paste this in:
+
+```
+Install the Inkling plugin from https://github.com/DarrenSchaeffer/public-plugins
+```
+
+In Claude Code you can also run:
 
 ```
 /plugin marketplace add DarrenSchaeffer/public-plugins
@@ -62,7 +71,7 @@ Ask it: "Install the Inkling plugin from https://github.com/DarrenSchaeffer/publ
 
 ### Any other chatbot (Gemini, Microsoft Copilot, and others)
 
-Start a new chat and paste in the prompt from [PROMPT.md](PROMPT.md). The Gemini app can't run Inkling's shuffle script, so the prompt is the way in there.
+Start a new chat and paste in [the prompt](PROMPT.md).
 
 All downloads are on the [Releases page](https://github.com/DarrenSchaeffer/public-plugins/releases/latest).
 
