@@ -11,7 +11,7 @@ By Darren Schaeffer ([Substack](https://substack.com/@darrenschaeffer), [LinkedI
 1. **Start with "Use Inkling":** "Use Inkling to give me a reading on [your question]."
 2. **Ask one question at a time.** If you're not sure what to ask, use voice input and ramble about your situation. It will pick out the question for you and choose the appropriate system.
 3. **Confirm the question.** It turns what you said into a clear question and shows it to you before it casts. Look it over and make sure it's right.
-4. **It shuffles in code,** so the AI can't skip the shuffle or make up the cards.
+4. **It shuffles in code,** so the AI can't skip it or make up the cards.
 5. **Receive insight.** The answer comes first, with the details below it, so you can check the reading and learn from it.
 
 A reading can show you the shape of what's happening, but the choice is yours, and so is walking the path.
