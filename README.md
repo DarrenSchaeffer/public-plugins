@@ -18,7 +18,7 @@ Turn on code execution (Settings, then Capabilities). Then go to Customize, then
 
 ## License
 
-CC BY-NC-SA 4.0: share and adapt with credit, non-commercially, under the same terms. For commercial use, contact the author on Substack. See [LICENSE](LICENSE).
+Free for personal use. All rights reserved: don't change, share, or republish these tools without permission. For commercial use, contact the author on Substack. See [LICENSE](LICENSE).
 
 ## Development
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Inkling: cast a reading: tarot (Celtic Cross), Lenormand (3x3 grid), or I Ching (one hexagram).
+"""Inkling: cast a reading: tarot (three cards), Lenormand (three cards), or I Ching (one hexagram).
 
 Usage:
     python3 cast.py tarot
@@ -9,7 +9,7 @@ Usage:
 Randomness comes from random.SystemRandom (the operating system's random source).
 It is never seeded, so no cast can be repeated or predicted.
 
-By Darren Schaeffer. CC BY-NC-SA 4.0.
+By Darren Schaeffer. All rights reserved; free for personal use.
 """
 
 import random
@@ -28,18 +28,7 @@ RANKS = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine",
 SUITS = ["Wands", "Cups", "Swords", "Pentacles"]
 TAROT_DECK = MAJOR_ARCANA + [f"{rank} of {suit}" for suit in SUITS for rank in RANKS]
 
-CELTIC_CROSS = [
-    "The heart of the matter",
-    "What crosses it",
-    "The root (below)",
-    "The recent past (behind)",
-    "The crown (above)",
-    "The near future (ahead)",
-    "You",
-    "Your surroundings",
-    "Hopes and fears",
-    "The outcome",
-]
+TAROT_POSITIONS = ["Past", "Present", "Future"]
 
 LENORMAND_DECK = [
     "Rider", "Clover", "Ship", "House", "Tree", "Clouds", "Snake", "Coffin", "Bouquet",
@@ -47,8 +36,7 @@ LENORMAND_DECK = [
     "Garden", "Mountain", "Crossroads", "Mice", "Heart", "Ring", "Book", "Letter", "Man",
     "Woman", "Lily", "Sun", "Moon", "Key", "Fish", "Anchor", "Cross",
 ]
-GRID_COLUMNS = ["past", "present", "future"]
-GRID_ROWS = ["Top (above the situation)", "Middle (what is happening)", "Bottom (underneath)"]
+LENORMAND_POSITIONS = ["Subject", "What acts on it", "Outcome"]
 
 # Hexagrams by their lines, bottom to top (1 = yang, 0 = yin), King Wen order.
 HEXAGRAMS = {
@@ -94,22 +82,19 @@ def shuffled(deck):
 
 
 def cast_tarot():
-    cards = shuffled(TAROT_DECK)[: len(CELTIC_CROSS)]
-    lines = ["TAROT: Celtic Cross, 10 cards from a shuffled 78-card deck"]
-    for number, (position, card) in enumerate(zip(CELTIC_CROSS, cards), start=1):
+    cards = shuffled(TAROT_DECK)[: len(TAROT_POSITIONS)]
+    lines = ["TAROT: three cards (past, present, future) from a shuffled 78-card deck"]
+    for number, (position, card) in enumerate(zip(TAROT_POSITIONS, cards), start=1):
         reversed_ = RNG.random() < 0.5
-        lines.append(f"{number:>2}. {position}: {card}{', reversed' if reversed_ else ''}")
+        lines.append(f"{number}. {position}: {card}{', reversed' if reversed_ else ''}")
     return "\n".join(lines)
 
 
 def cast_lenormand():
-    cards = shuffled(LENORMAND_DECK)[:9]
-    lines = ["LENORMAND: 3x3 grid, 9 cards from a shuffled 36-card deck",
-             "Columns run " + ", ".join(GRID_COLUMNS) + ", left to right. The center card is the heart of the matter."]
-    for row, name in enumerate(GRID_ROWS):
-        row_cards = cards[row * 3: row * 3 + 3]
-        lines.append(f"{name}: " + " | ".join(row_cards))
-    lines.append(f"Center: {cards[4]}")
+    cards = shuffled(LENORMAND_DECK)[: len(LENORMAND_POSITIONS)]
+    lines = ["LENORMAND: three cards, read as one sentence, from a shuffled 36-card deck"]
+    for number, (position, card) in enumerate(zip(LENORMAND_POSITIONS, cards), start=1):
+        lines.append(f"{number}. {position}: {card}")
     return "\n".join(lines)
 
 

@@ -75,17 +75,16 @@ class Decks(unittest.TestCase):
 
 class Casts(unittest.TestCase):
     def test_tarot_cast(self):
-        out = cast.cast_tarot().splitlines()
-        cards = out[1:]
-        self.assertEqual(len(cards), 10)
+        cards = cast.cast_tarot().splitlines()[1:]
+        self.assertEqual(len(cards), 3)
         names = [line.split(": ", 1)[1].replace(", reversed", "") for line in cards]
-        self.assertEqual(len(set(names)), 10)
-        for i, position in enumerate(cast.CELTIC_CROSS):
+        self.assertEqual(len(set(names)), 3)
+        for i, position in enumerate(cast.TAROT_POSITIONS):
             self.assertIn(position, cards[i])
 
     def test_reversals_near_half(self):
-        reversed_count = sum(cast.cast_tarot().count(", reversed") for _ in range(2000))
-        self.assertTrue(0.45 < reversed_count / 20000 < 0.55, reversed_count)
+        reversed_count = sum(cast.cast_tarot().count(", reversed") for _ in range(6000))
+        self.assertTrue(0.47 < reversed_count / 18000 < 0.53, reversed_count)
 
     def test_tarot_shuffle_uniform_enough(self):
         first = Counter(cast.shuffled(cast.TAROT_DECK)[0] for _ in range(39000))
@@ -93,13 +92,14 @@ class Casts(unittest.TestCase):
         self.assertTrue(all(300 < n < 700 for n in first.values()))
 
     def test_lenormand_cast(self):
-        out = cast.cast_lenormand().splitlines()
-        rows = [line for line in out if line.split(": ")[0] in cast.GRID_ROWS]
-        cards = [c for row in rows for c in row.split(": ", 1)[1].split(" | ")]
-        self.assertEqual(len(cards), 9)
-        self.assertEqual(len(set(cards)), 9)
-        self.assertNotIn("reversed", cast.cast_lenormand())
-        self.assertEqual(out[-1], f"Center: {cards[4]}")
+        out = cast.cast_lenormand()
+        cards = out.splitlines()[1:]
+        self.assertEqual(len(cards), 3)
+        names = [line.split(": ", 1)[1] for line in cards]
+        self.assertEqual(len(set(names)), 3)
+        for i, position in enumerate(cast.LENORMAND_POSITIONS):
+            self.assertIn(position, cards[i])
+        self.assertNotIn("reversed", out)
 
     def test_iching_cast(self):
         for _ in range(500):
@@ -162,6 +162,9 @@ class Casts(unittest.TestCase):
         builtins_called = {n.func.id for n in ast.walk(tree)
                            if isinstance(n, ast.Call) and isinstance(n.func, ast.Name)}
         self.assertFalse(builtins_called & {"open", "eval", "exec", "__import__", "compile", "input"})
+
+    def test_license_copies_match(self):
+        self.assertEqual((ROOT / "LICENSE").read_text(), (ROOT / "plugins/inkling/LICENSE").read_text())
 
     def test_never_seeded(self):
         self.assertNotIn(".seed(", SCRIPT.read_text())

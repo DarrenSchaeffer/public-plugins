@@ -1,12 +1,12 @@
 {
   "name": "inkling",
-  "version": "0.5.5",
-  "description": "Inkling: divination with tarot, Lenormand, and I Ching readings for clarity on your own life, with a real random cast. Ask for a reading, a card pull, or a hexagram; confirm the question with Y; the answer comes first, with the cast below for checking.",
+  "version": "0.6.0",
+  "description": "Inkling: try AI divination with a three-card tarot or Lenormand reading, or one I Ching hexagram, for clarity on your own life, with a real random cast. Ask for a reading; confirm the question with Y; the answer comes first, with the cast below for checking.",
   "author": {
     "name": "Darren Schaeffer",
     "url": "https://substack.com/@darrenschaeffer"
   },
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "SEE LICENSE IN LICENSE",
   "keywords": [
     "divination",
     "tarot",

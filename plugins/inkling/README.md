@@ -87,4 +87,4 @@ Questions and feedback: [Substack](https://substack.com/@darrenschaeffer) or [Gi
 
 ## License
 
-CC BY-NC-SA 4.0: share and adapt it with credit, non-commercially, under the same terms. For commercial use, contact the author on Substack. See [LICENSE](../../LICENSE).
+Free for personal use. All rights reserved: don't change, share, or republish it without permission. For commercial use, contact the author on Substack. See [LICENSE](LICENSE).
