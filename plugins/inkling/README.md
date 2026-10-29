@@ -69,6 +69,8 @@ In Claude Code you can also run:
 /plugin install inkling@darrenschaeffer
 ```
 
+To get new versions automatically in Claude Code: run `/plugin`, open the Marketplaces tab, select this marketplace, and choose Enable auto-update. Otherwise, update by hand: `/plugin`, then Installed, then Inkling, then Update now.
+
 ### Any other chatbot (Gemini, Microsoft Copilot, and others)
 
 Start a new chat and paste in [the prompt](PROMPT.md).
